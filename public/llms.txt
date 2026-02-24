@@ -1,6 +1,4 @@
-# צמר בענן — Generative Engine Optimization Map
-
-> A handcrafted baby blanket business specializing in hand-knitted products made from 100% organic cotton wool. The brand emphasizes artisanal craftsmanship, natural materials, and gentle care for babies through premium, eco-friendly textile products. The business conveys warmth, softness, and maternal care through handmade quality.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -48,15 +46,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About צמר בענן
-A handcrafted baby blanket business specializing in hand-knitted products made from 100% organic cotton wool. The brand emphasizes artisanal craftsmanship, natural materials, and gentle care for babies through premium, eco-friendly textile products. The business conveys warmth, softness, and maternal care through handmade quality.
-
-## Target Audience
-הורים לתינוקות
-
-## Industry
-מוצרי תינוקות בעבודת יד
-
+## About Business
 ---
 
 # Additional Resources
