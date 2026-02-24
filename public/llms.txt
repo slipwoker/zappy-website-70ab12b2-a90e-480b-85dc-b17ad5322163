@@ -1,55 +1,65 @@
-# Business — Generative Engine Optimization Map
+# צמר בענן — Generative Engine Optimization Map
+
+> A handcrafted baby blanket business specializing in hand-knitted products made from 100% organic cotton wool. The brand emphasizes artisanal craftsmanship, natural materials, and gentle care for babies through premium, eco-friendly textile products. The business conveys warmth, softness, and maternal care through handmade quality.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://tsemer-be-anan.zappy5.app
 גלו שמיכות סרוגות לתינוקות בעבודת יד מכותנה אורגנית 100%. מוצרים איכוtiים ועדינים לעור התינוק, נוצרים באהבה ובמקצועיות. הזמינו עכשיו!
 
 ### אודות
-https://example.com/about
+https://tsemer-be-anan.zappy5.app/about
 מאחורי כל שמיכה סרוגה עומדת אהבה אמיתית למלאכת יד ודאגה לנוחות התינוקות. למדו על הערכים שלנו, החומרים האיכותיים והמסירות לאיכות מושלמת.
 
 ### Products
-https://example.com/products
+https://tsemer-be-anan.zappy5.app/products
 המוצרים שלנו - צמר בענן
 
 ### צור קשר
-https://example.com/contact
+https://tsemer-be-anan.zappy5.app/contact
 רוצים שמיכה מותאמת אישית לתינוק שלכם? צרו קשר עכשיו לייעוץ אישי, הזמנה מיוחדת או שאלות. אנחנו כאן בשבילכם עם מענה מהיר וחם!
 
 ### Product Detail
-https://example.com/product/:slug
+https://tsemer-be-anan.zappy5.app/product/:slug
 פרטי המוצר - צמר בענן
 
 ### Category
-https://example.com/category/:slug
+https://tsemer-be-anan.zappy5.app/category/:slug
 מוצרים - צמר בענן
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://tsemer-be-anan.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://tsemer-be-anan.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://tsemer-be-anan.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About צמר בענן
+A handcrafted baby blanket business specializing in hand-knitted products made from 100% organic cotton wool. The brand emphasizes artisanal craftsmanship, natural materials, and gentle care for babies through premium, eco-friendly textile products. The business conveys warmth, softness, and maternal care through handmade quality.
+
+## Target Audience
+הורים לתינוקות
+
+## Industry
+מוצרי תינוקות בעבודת יד
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://tsemer-be-anan.zappy5.app/sitemap.xml
+- **Robots.txt**: https://tsemer-be-anan.zappy5.app/robots.txt
