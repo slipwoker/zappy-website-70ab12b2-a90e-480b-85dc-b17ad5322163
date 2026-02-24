@@ -826,7 +826,7 @@
 </script>
   
   <main>
-    <section class="about-intro-section" data-layout-spec="אודות-intro">
+    <section class="about-intro-section" data-layout-spec="אודות-intro" id="temp-section-1771942731048">
   <div class="about-intro-container">
     <div class="about-intro-image-wrapper">
       <img data-placeholder="about-intro-hero-image" data-context="Soft-focus close-up photograph of a hand-knitted baby blanket in cream or soft white organic cotton wool, showing delicate stitching details and texture. Natural daylight streaming through a window creates a warm, gentle atmosphere. The blanket is draped over a light wooden surface or white nursery furniture. Shallow depth of field emphasizes the handcrafted quality and soft fibers. Clean, bright, gallery-like aesthetic with minimal styling - no props or distractions, just the beautiful textile craftsmanship." width="1200" height="500" src="/assets/site-about-intro-hero-image.webp" alt="שמיכת תינוק סרוגה בעבודת יד מצמר כותנה אורגני">
@@ -854,11 +854,57 @@
   </div>
 
   <div class="about-intro-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,80 L1200,20 L1200,80 Z" fill="#F4F1EB"></path>
     </svg>
   </div>
 </section>
+
+<section id="layout-1771942730422" class="layout-section hero-section" data-zappy-component="true" style="width: 100vw; margin-left: calc(-50vw + 50%); min-height: 500px; position: relative; display: flex; align-items: center; justify-content: center; direction: rtl; overflow: hidden; box-sizing: border-box;" data-component-id="hero-fullwidth-bg">
+  <!-- CSS override for hero background images and content elements - ensures correct styling -->
+  <style>
+    .hero-bg-container img.hero-background-image,
+    .hero-bg-container img[data-hero-background="true"] {
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover !important;
+      object-position: center !important;
+      display: block !important;
+      max-width: none !important;
+      margin: 0 !important;
+      border-radius: 0 !important;
+    }
+    /* Ensure interactive elements in hero section are clickable */
+    #layout-1771942730422 button,
+    #layout-1771942730422 a,
+    #layout-1771942730422 .btn,
+    #layout-1771942730422 [class*="btn"],
+    #layout-1771942730422 [data-element-type="button"],
+    #layout-1771942730422 h1,
+    #layout-1771942730422 h2,
+    #layout-1771942730422 h3,
+    #layout-1771942730422 h4,
+    #layout-1771942730422 p {
+      pointer-events: auto !important;
+      position: relative;
+    }
+  </style>
+  <!-- Background Image Container - full bleed -->
+  <div class="hero-bg-container" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;">
+    <img data-placeholder="hero-bg-1771942730422" data-context="Hero background image for כותרת שלך כאן" data-zappy-editable-image="true" data-element-type="image" data-hero-background="true" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1920' height='800'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%232A9D8F;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23A8DADC;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='24' fill='white' text-anchor='middle' dy='.3em' font-weight='500'%3EHero Background Image%3C/text%3E%3C/svg%3E" alt="Hero background" style="width: 100%; height: 100%; object-fit: cover; object-position: center; cursor: pointer; display: block;" class="layout-placeholder-image zappy-editable-image hero-background-image">
+  </div>
+  
+  <!-- Dark Overlay for text readability (pointer-events: none allows clicking through to image) -->
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4); z-index: 2; pointer-events: none;"></div>
+  
+  <!-- Content (pointer-events: none on container, auto on interactive elements via CSS above) -->
+  <div class="container" style="position: relative; z-index: 3; max-width: 1200px; width: 100%; margin: 0 auto; padding: 80px 1.5rem; text-align: center; pointer-events: none; box-sizing: border-box;">
+    <h1 style="font-size: 48px; font-weight: 700; color: #FFFFFF; margin-bottom: 20px; font-family: system-ui, -apple-system, sans-serif; text-shadow: 0 2px 4px rgba(0,0,0,0.3); pointer-events: auto;">כותרת שלך כאן</h1>
+    <h3 style="font-size: 24px; font-weight: 400; color: #FFFFFF; opacity: 0.9; max-width: 700px; margin: 0 auto; font-family: system-ui, -apple-system, sans-serif; text-shadow: 0 1px 2px rgba(0,0,0,0.3); pointer-events: auto;">מותג בוטיק לעיצוב וסריגת שמיכות פרימיום בעבודת יד.<br>החזון של צמר בענן הוא ליצור פריטים בעיצוב נקי וקלאסי, ללא פשרות על איכות החומר. אני סורגת את כל השמיכות אך ורק מ-100% כותנה אורגנית העומדת בתקנים הבינלאומיים המחמירים ביותר: GOTS ו-OEKO-TEX® Standard 100.<br>אני מאמינה במוצרים איכותיים ובריאים שמחזיקים מעמד לאורך זמן, ומעניקים פתרון בטוח ומעוצב להורים ולילדים.&nbsp; ותרת משנה שלך כאן</h3>
+  </div>
+</section>
+
+
 
 <section class="about-story-section" data-layout-spec="אודות-story">
   <div class="about-story-container">
@@ -882,7 +928,7 @@
   </div>
   
   <div class="about-story-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,60 L0,35 Q100,28 200,35 T400,28 Q500,35 600,28 T800,35 Q900,28 1000,35 T1200,28 L1200,60 Z" fill="#FBF8F2"></path>
       <path d="M0,60 L0,45 Q100,38 200,45 T400,38 Q500,45 600,38 T800,45 Q900,38 1000,45 T1200,38 L1200,60 Z" fill="#FBF8F2" opacity="0.6"></path>
     </svg>
@@ -951,7 +997,7 @@
   </div>
 
   <div class="about-process-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,80 L0,50 Q50,45 100,50 Q150,55 200,48 Q250,42 300,50 Q350,58 400,50 Q450,42 500,50 Q550,58 600,50 Q650,42 700,50 Q750,58 800,50 Q850,42 900,50 Q950,58 1000,50 Q1050,42 1100,50 Q1150,58 1200,50 L1200,80 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
