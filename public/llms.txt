@@ -1,0 +1,55 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+גלו שמיכות סרוגות לתינוקות בעבודת יד מכותנה אורגנית 100%. מוצרים איכוtiים ועדינים לעור התינוק, נוצרים באהבה ובמקצועיות. הזמינו עכשיו!
+
+### אודות
+https://example.com/about
+מאחורי כל שמיכה סרוגה עומדת אהבה אמיתית למלאכת יד ודאגה לנוחות התינוקות. למדו על הערכים שלנו, החומרים האיכותיים והמסירות לאיכות מושלמת.
+
+### Products
+https://example.com/products
+המוצרים שלנו - צמר בענן
+
+### צור קשר
+https://example.com/contact
+רוצים שמיכה מותאמת אישית לתינוק שלכם? צרו קשר עכשיו לייעוץ אישי, הזמנה מיוחדת או שאלות. אנחנו כאן בשבילכם עם מענה מהיר וחם!
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - צמר בענן
+
+### Category
+https://example.com/category/:slug
+מוצרים - צמר בענן
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
